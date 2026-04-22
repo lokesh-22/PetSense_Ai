@@ -1,14 +1,12 @@
 # PetSense AI Frontend
 
-React + Vite frontend scaffold for the PetSense AI project.
+React + Vite frontend for the PetSense AI project.
 
-## Planned modules
+## Runtime
 
-- Dashboard
-- AI chat
-- Health tracker
-- Food ingredient scanner
-- Pet profile
+- Runs locally on your machine
+- Connects to the local backend at `http://localhost:8000/api/v1`
+- Uses Dockerized PostgreSQL and Redis indirectly through the backend
 
 ## Run locally
 

@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "name": "garlic powder",
+    "severity": "high",
+    "note": "Garlic can damage red blood cells in dogs and cats."
+  },
+  {
+    "name": "onion",
+    "severity": "high",
+    "note": "Onions are toxic and may cause gastrointestinal upset and anemia."
+  },
+  {
+    "name": "xylitol",
+    "severity": "high",
+    "note": "Xylitol can cause dangerous blood sugar drops, especially in dogs."
+  },
+  {
+    "name": "salt",
+    "severity": "medium",
+    "note": "High salt content can worsen dehydration and stomach upset."
+  },
+  {
+    "name": "chocolate",
+    "severity": "high",
+    "note": "Chocolate contains methylxanthines that are toxic to pets."
+  }
+]

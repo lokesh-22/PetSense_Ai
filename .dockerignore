@@ -1,0 +1,8 @@
+.git
+node_modules
+petsenseai_frontend/node_modules
+petsenseai_frontend/dist
+backend/.venv
+__pycache__
+*.pyc
+.DS_Store

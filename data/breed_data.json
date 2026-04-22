@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "breed": "Labrador Retriever",
+    "species": "dog",
+    "risk_tags": ["Hip dysplasia", "Obesity risk", "Ear infections"]
+  },
+  {
+    "breed": "Golden Retriever",
+    "species": "dog",
+    "risk_tags": ["Heavy shedding", "Skin sensitivity", "Joint issues"]
+  },
+  {
+    "breed": "German Shepherd",
+    "species": "dog",
+    "risk_tags": ["Joint support", "Digestive sensitivity", "Anxiety management"]
+  },
+  {
+    "breed": "Persian",
+    "species": "cat",
+    "risk_tags": ["Eye discharge", "Coat matting", "Brachycephalic breathing"]
+  },
+  {
+    "breed": "Siamese",
+    "species": "cat",
+    "risk_tags": ["Dental care", "Enrichment needs", "Weight maintenance"]
+  }
+]

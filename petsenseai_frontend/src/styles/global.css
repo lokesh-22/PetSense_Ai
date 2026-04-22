@@ -26,6 +26,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background: transparent;
 }
 
 a {
@@ -49,6 +50,11 @@ button {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: wait;
 }
 
 textarea,
@@ -146,6 +152,10 @@ select {
 }
 
 .content {
+  padding: 2rem;
+}
+
+.page-shell {
   padding: 2rem;
 }
 
@@ -248,6 +258,103 @@ select {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+}
+
+.notice {
+  padding: 0.9rem 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+}
+
+.notice.error {
+  border-color: rgba(239, 126, 109, 0.35);
+  background: rgba(239, 126, 109, 0.08);
+}
+
+.top-gap {
+  margin-top: 1rem;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.ghost-button {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff6ea;
+  border: 1px solid var(--line);
+}
+
+.danger-button {
+  border-color: rgba(239, 126, 109, 0.45);
+  color: #ffd2c8;
+}
+
+.user-pill {
+  padding: 0.95rem 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.user-pill strong,
+.user-pill span {
+  display: block;
+}
+
+.user-pill span,
+.auth-copy,
+.message small {
+  color: var(--text-soft);
+}
+
+.auth-screen {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+.auth-card {
+  width: min(100%, 460px);
+  padding: 2rem;
+  border-radius: 28px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(145deg, rgba(244, 184, 96, 0.18), rgba(21, 32, 36, 0.95) 38%),
+    var(--bg-panel-strong);
+  box-shadow: var(--shadow);
+}
+
+.auth-card h1 {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+}
+
+.toggle-row {
+  display: flex;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.toggle-button {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff7ef;
+  border: 1px solid var(--line);
+}
+
+.toggle-button.active,
+.highlight {
+  border-color: rgba(244, 184, 96, 0.28);
+  background: rgba(244, 184, 96, 0.12);
+}
+
+.compact-grid {
+  gap: 1rem;
 }
 
 .timeline-row {

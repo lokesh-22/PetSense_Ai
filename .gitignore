@@ -1,8 +1,39 @@
-node_modules
-dist
+# OS / editor
 .DS_Store
+
+# Environment files
 .env
+.env.local
+backend/.env
+petsenseai_frontend/.env
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.venv*/
 backend/.venv/
-petsense.db
+backend/.venv*/
+
+# Node / frontend
+node_modules/
+dist/
+petsenseai_frontend/node_modules/
+petsenseai_frontend/dist/
+
+# Logs
+*.log
+
+# Local RAG / generated artifacts
+data/faiss_index/*.faiss
+data/faiss_index/*.pkl
+data/faiss_index/*.index
+data/faiss_index/*metadata*.json
+data/faiss_index/embedding_cache.json
